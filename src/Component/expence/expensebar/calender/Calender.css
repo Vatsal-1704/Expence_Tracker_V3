@@ -1,0 +1,33 @@
+.calender-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 6rem;
+    width: 17%;
+    padding: 0.2rem;
+    background-color: rgb(39, 37, 37);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    line-height: 1.7;
+    border: rgb(241, 214, 214) 2px solid;
+  }
+  #date {
+    font-weight: bolder;
+    font-size: 1.7rem;
+  }
+  @media only screen and (max-width:500px) {
+    .calender-container {
+      height: 3.5rem;
+      width: 17%;
+      padding: 0.1rem;
+      border: rgb(206, 201, 201) 0.2px solid;
+      font-size: 0.5rem;
+      line-height: 1.7;
+     
+    }
+    #date {
+      font-weight: bolder;
+      font-size: 0.8rem;
+    }
+    
+  }
